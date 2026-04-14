@@ -1,56 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <title>Meeting Minutes</title>
-</head>
-<body>
+    <meta name="description" content="Meeting minutes for Lab 2 HTML assignment">
+    <title>Team Meeting Minutes</title>
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f4dd.png">
+  </head>
+  <body>
+    <header>
+      <h1>Team Meeting Minutes</h1>
+      <h2>Project Brainstorm and Weekly Check In</h2>
+      <h3>April 14, 2026</h3>
 
-<header>
-    <h1>Team Meeting Minutes</h1>
-    <h2>Brainstorming Session</h2>
-    <h3>Date: April 14, 2026</h3>
-</header>
+      <nav>
+        <a href="#attendance">Attendance</a><br>
+        <a href="#agenda">Agenda</a><br>
+        <a href="#unfinished">Unfinished Business</a><br>
+        <a href="#new">New Business</a><br>
+        <a href="#comments">Comments</a><br>
+        <a href="#media">Media</a><br>
+        <a href="#form">Feedback Form</a>
+      </nav>
 
-<main>
+      <hr>
+    </header>
 
-<section>
-    <h2>Attendance</h2>
-    <ul>
-        <li>Fahad</li>
-        <li>John</li>
-        <li>Sarah</li>
-    </ul>
-</section>
+    <main>
+      <section id="attendance">
+        <h2>Attendance</h2>
+        <p>
+          The meeting started at <strong>6:00 PM</strong>. Everyone gave a quick update
+          on what they worked on this week.
+        </p>
+        <ul>
+          <li>Fahad Majidi</li>
+          <li>Ali</li>
+          <li>Sarah</li>
+          <li>David</li>
+        </ul>
+        <div>
+          <span>Meeting type:</span> In person
+        </div>
+      </section>
 
-<section>
-    <h2>Agenda</h2>
-    <ol>
-        <li>Project ideas</li>
-        <li>Task assignments</li>
-    </ol>
-</section>
+      <section id="agenda">
+        <h2>Agenda</h2>
+        <ol>
+          <li>Review progress from last meeting</li>
+          <li>Discuss design ideas for the project</li>
+          <li>Assign tasks for the next week</li>
+          <li>Talk about timeline and deadlines</li>
+        </ol>
+      </section>
 
-<section>
-    <h2>Old Business</h2>
-    <p>Discussed previous project progress.</p>
-</section>
+      <section id="unfinished">
+        <h2>Unfinished Business</h2>
+        <p>
+          Last meeting, the team agreed to research app ideas and compare a few possible
+          directions. We still needed to decide which idea was the strongest.
+        </p>
+        <p>
+          One option was a <b>study planner</b>, and another option was a
+          <i>group task manager</i>. Both ideas were discussed again in this meeting.
+        </p>
+      </section>
 
-<section>
-    <h2>New Business</h2>
-    <p>New idea: build a productivity app.</p>
-</section>
+      <section id="new">
+        <h2>New Business</h2>
+        <p>
+          The team decided to move forward with a <em>student productivity app</em>.
+          This app will help students organize homework, deadlines, and meeting schedules.
+        </p>
+        <p>
+          <strong>Task assignments:</strong>
+        </p>
+        <ul>
+          <li>Fahad will work on the basic HTML structure</li>
+          <li>Ali will collect notes and examples</li>
+          <li>Sarah will create diagrams and media</li>
+          <li>David will review the final page for missing elements</li>
+        </ul>
 
-<section>
-    <h2>Comments</h2>
-    <p><strong>Important:</strong> Deadlines are coming soon.</p>
-</section>
+        <details>
+          <summary>Extra Notes About the Chosen Project</summary>
+          <p>
+            The group chose this project because it is useful, simple to explain, and
+            can be expanded later with more features.
+          </p>
+        </details>
+      </section>
 
-</main>
+      <section id="comments">
+        <h2>Comments, Questions, and Concerns</h2>
+        <ul>
+          <li>The group wants to keep the design simple for now</li>
+          <li>Everyone should finish their part before the weekend</li>
+          <li>We should check the HTML using the validator before submitting</li>
+        </ul>
+        <p>
+          Reminder:<br>
+          Make sure all required HTML elements are included before turning in the lab.
+        </p>
+      </section>
 
-<footer>
-    <p>End of meeting</p>
-</footer>
+      <section id="media">
+        <h2>Pictures and Recordings</h2>
 
-</body>
+        <h3>Whiteboard Diagram</h3>
+        <img
+          src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80"
+          alt="Team discussion around a workspace"
+          width="400"
+        >
+
+        <h3>Audio Recording</h3>
+        <audio controls>
+          <source src="audio.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+
+        <h3>Video Recording</h3>
+        <video controls width="400">
+          <source src="video.mp4" type="video/mp4">
+          Your browser does not support the video element.
+        </video>
+      </section>
+
+      <section>
+        <h2>Meeting Summary</h2>
+        <p>
+          In summary, the team picked the project idea, divided up responsibilities,
+          and agreed on the work that needs to be done before the next meeting.
+        </p>
+      </section>
+
+      <section id="form">
+        <h2>Feedback Form</h2>
+
+        <form>
+          <fieldset>
+            <legend>Meeting Feedback</legend>
+
+            <p>
+              <label for="name">Name:</label><br>
+              <input type="text" id="name" name="name">
+            </p>
+
+            <p>
+              <label for="meeting-date">Meeting Date:</label><br>
+              <input type="date" id="meeting-date" name="meeting-date">
+            </p>
+
+            <p>
+              Did you attend the full meeting?<br>
+              <input type="radio" id="yes-attend" name="attendance-status" value="yes">
+              <label for="yes-attend">Yes</label><br>
+              <input type="radio" id="no-attend" name="attendance-status" value="no">
+              <label for="no-attend">No</label>
+            </p>
+
+            <p>
+              What topics were covered?<br>
+              <input type="checkbox" id="topic-planning" name="topic-planning">
+              <label for="topic-planning">Planning</label><br>
+              <input type="checkbox" id="topic-design" name="topic-design">
+              <label for="topic-design">Design</label><br>
+              <input type="checkbox" id="topic-tasks" name="topic-tasks">
+              <label for="topic-tasks">Task Assignments</label>
+            </p>
+
+            <p>
+              <label for="role">Choose your role:</label><br>
+              <input list="roles" id="role" name="role">
+              <datalist id="roles">
+                <option value="Developer"></option>
+                <option value="Designer"></option>
+                <option value="Note Taker"></option>
+                <option value="Project Lead"></option>
+              </datalist>
+            </p>
+
+            <p>
+              <label for="team-rating">Rate the meeting:</label><br>
+              <select id="team-rating" name="team-rating">
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="okay">Okay</option>
+                <option value="poor">Poor</option>
+              </select>
+            </p>
+
+            <p>
+              <label for="comments-box">Additional Comments:</label><br>
+              <textarea id="comments-box" name="comments-box" rows="5" cols="40"></textarea>
+            </p>
+
+            <p>
+              <button type="submit">Submit Feedback</button>
+            </p>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <hr>
+      <p>Created for CSE 110 Lab 2</p>
+      <p>Prepared by Fahad Majidi and team</p>
+    </footer>
+  </body>
 </html>
